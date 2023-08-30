@@ -8,9 +8,20 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "RigidBody2D",
+"class": "Prey",
+"language": "GDScript",
+"path": "res://Prey.gd"
+} ]
+_global_script_class_icons={
+"Prey": ""
+}
+
 [application]
 
 config/name="Mover"
+run/main_scene="res://MainScene.tscn"
 config/icon="res://icon.png"
 
 [gui]
